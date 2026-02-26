@@ -6,7 +6,7 @@ st.set_page_config(page_title="Personal AI", page_icon="💬")
 st.title("🤖 Мой личный ИИ-ассистент")
 
 # Сюда вставь свой токен или добавь его в секреты Streamlit
-API_TOKEN = "ТВОЙ_ТОКЕН_ЗДЕСЬ"
+API_TOKEN = "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"
 MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3" # Мощная модель
 API_URL = f"https://api-inference.huggingface.co/models/{MODEL_ID}"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
